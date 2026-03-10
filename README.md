@@ -1,6 +1,6 @@
 # Advanced DNS Spoofing Detector
 
-A professional Python-based network security tool designed to detect **DNS Spoofing** and **Man-in-the-Middle (MITM)** attacks in real-time using the Scapy library.
+A professional Python-based network security tool designed to detect **DNS Spoofing** and **Man-in-the-Middle** attacks in real-time using the Scapy library.
 
 ##  Detection Logic
 The detector employs four main heuristic methods to identify malicious DNS activity:

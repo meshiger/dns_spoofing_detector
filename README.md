@@ -2,7 +2,7 @@
 
 A professional Python-based network security tool designed to detect **DNS Spoofing** and **Man-in-the-Middle (MITM)** attacks in real-time using the Scapy library.
 
-## 🛡️ Detection Logic
+##  Detection Logic
 The detector employs four main heuristic methods to identify malicious DNS activity:
 
 1. **Transaction ID Tracking**: Maps outgoing queries to incoming responses to ensure every response was actually requested.
@@ -11,7 +11,7 @@ The detector employs four main heuristic methods to identify malicious DNS activ
 4. **Duplicate Detection (Race Condition)**: Identifies if multiple responses are received for a single query ID—a signature of an attacker attempting to "outrun" the legitimate DNS server.
 5. **IP History Tracking**: Maintains a stateful history of resolved domains. If a domain suddenly points to a different IP address than previously recorded, an alert is triggered.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.x

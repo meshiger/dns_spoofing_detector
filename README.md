@@ -15,7 +15,7 @@ The detector employs four main heuristic methods to identify malicious DNS activ
 
 ### Prerequisites
 - Python 3.x
-- `scapy` library
+- scapy library
 - Administrator/Root privileges (required for network sniffing)
 
 ### Installation
